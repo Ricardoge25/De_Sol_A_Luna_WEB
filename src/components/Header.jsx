@@ -16,14 +16,14 @@ export default function Header() {
 
         {/* Navegacion */}
         <nav className="flex items-center space-x-8 text-shadow-10  font-medium text-xl">
-          <a href="#sinopsis" className="hover:text-shadow-8 transition">Sinopsis</a>
-          <a href="#equipo" className="hover:text-shadow-8 transition">Equipo</a>
-          <a href="#smartfilms" className="hover:text-shadow-8 transition">SmartFilms</a>
+          <a href="#sinopsis" className="hover:text-blue-400 transition">Sinopsis</a>
+          <a href="#equipo" className="hover:text-blue-400 transition">Equipo</a>
+          <a href="#smartfilms" className="hover:text-blue-400 transition">SmartFilms</a>
 
           {/* Botón */}
           <a
             href="#Link de votacion"
-            className="flex items-center bg-shadow-10 text-white px-4 py-2 rounded-full text-lg font-semibold hover:bg-shadow-8 transition"
+            className="flex items-center bg-shadow-10 text-white px-4 py-2 rounded-full text-lg font-normal hover:bg-blue-400 transition"
           >
             Vota por Nosotros
           </a>
