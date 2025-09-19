@@ -22,21 +22,21 @@ export default function Gallery() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="relative overflow-hiden rounded-lg shadow-lg">
             <img
-              src=""
+              src="Logo2.png"
               alt=""
               className="w-full h-48 object-cover transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-yellow-400"
             />
           </div>
           <div className="relative overflow-hiden rounded-lg shadow-lg">
             <img
-              src=""
+              src="Logo2.png"
               alt=""
               className="w-full h-48 object-cover transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-yellow-400"
             />
           </div>
           <div className="relative overflow-hiden rounded-lg shadow-lg">
             <img
-              src=""
+              src="Logo2.png"
               alt=""
               className="w-full h-48 object-cover transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-yellow-400"
             />
