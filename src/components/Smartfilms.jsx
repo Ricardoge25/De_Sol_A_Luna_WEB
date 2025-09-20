@@ -39,7 +39,7 @@ export default function Smartfilms() {
   ];
 
     return (
-    <section className="w-full py-16 bg-shadow-3">
+    <section id="SmartFilms" className="w-full py-24 bg-shadow-3">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
 
         {/* Título */}
@@ -72,15 +72,14 @@ export default function Smartfilms() {
             </div>
           ))}
         </div>
-
         {/* Sponsors */}
-        <div className="flex flex-wrap justify-center items-center gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center place-items-center">
           {logos.map ((logo) => (
             <img
               key={logo.id}
               src={logo.src}
               alt={logo.alt}
-              className="w-24 h-24 object-contain my-10 mx-12 rounded-full opacity-80 hover:opacity-100 transition"
+              className="w-20 h-20 md:w-24 md:h-24 object-contain rounded-full opacity-80 hover:opacity-100 transition"
             />
           ))}
         </div>
