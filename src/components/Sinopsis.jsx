@@ -1,48 +1,38 @@
 export default function Sinopsis() {
   return (
-    <section className="w-full py-16 bg-gradient-to-r from-gray-300 to-white pb-[260px]">
+    <section
+      id="Sinopsis"
+      className="w-full py-24 bg-gradient-to-r from-gray-300 to-white my-5"
+    >
       <h2 className="text-4xl md:text-5xl font-serif mb-20 text-center">
         Sinopsis
       </h2>
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-[1300px] mx-10 lg:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Texto */}
         <div>
-          <p className="text-shadow-9 leadeing-relaxed mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
-            rutrum ex. Donec finibus ligula et est eleifend cursus. Maecenas
-            molestie metus et nibh interdum, ac tempor odio egestas. Maecenas
-            placerat tincidunt velit, eget ornare est elementum in. Ut quis nibh
-            in mi pulvinar eleifend quis vel augue. Phasellus malesuada velit
-            vel finibus hendrerit. Sed sodales porttitor neque non tempus. Cras
-            lorem nibh, vulputate hendrerit est et, cursus vestibulum leo.
-            Pellentesque nec diam sit amet odio aliquam placerat vel at turpis.
-            Nullam placerat consequat volutpat. Vivamus rhoncus ligula non
-            iaculis scelerisque. Sed blandit vel purus nec feugiat. Suspendisse
-            potenti. Phasellus pretium sapien sed bibendum rutrum. Suspendisse
-            semper pharetra tortor ut molestie.
+          <p className="text-shadow-9 leading-relaxed mb-6 text-2xl">
+            Tras la muerte de su mascota, Mateo se aísla en la tristeza y el
+            desorden de un hogar que ya no siente como suyo. Una caja inesperada
+            y la presencia insistente de un gato lo confrontan con el recuerdo y
+            la posibilidad de sanar.
           </p>
 
           {/* Cita */}
           <blockquote className="border-l-4 border-yellow-500 pl-4 italic text-gray-500 ">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id
-            rutrum ex. Donec finibus ligula et est eleifend cursus. Maecenas
-            molestie metus et nibh interdum, ac tempor odio egestas. Maecenas
-            placerat tincidunt velit, eget ornare est elementum in. Ut quis nibh
-            in mi pulvinar eleifend quis vel augue. Phasellus malesuada velit
-            vel finibus hendrerit. Sed sodales porttitor neque non tempus. Cras
-            lorem nibh, vulputate hendrerit est et, cursus vestibulum leo."<br />
-            
+            "Cortometraje sobre el duelo, el amor por los animales y los nuevos comienzos."
+            <br />
           </blockquote>
-          <span className="font-semibold not-italic pt-6 block">
-            - Elizabeth Patricia Rivero
+          <span className="font-semibold italic pt-6 block">
+            - Directora del corto
           </span>
         </div>
         {/* Imagen */}
         <div className="flex justify-center">
-          <img 
-            src="/Logo2.png" 
+          <img
+            src="verticalsolaluna.png"
             alt=""
-            className="rounded-2xl shadow-lg h-auto shadow-yellow-400" />
+            className="rounded-2xl shadow-lg shadow-yellow-400"
+          />
         </div>
       </div>
     </section>
